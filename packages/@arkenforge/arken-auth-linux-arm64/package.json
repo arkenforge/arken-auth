@@ -1,0 +1,17 @@
+{
+  "name": "@arkenforge/arken-auth-linux-arm64",
+  "version": "0.1.0",
+  "description": "Prebuilt linux-arm64 binary for arken-auth",
+  "main": "index.js",
+  "files": ["bin/", "index.js"],
+  "os": ["linux"],
+  "cpu": ["arm64"],
+  "license": "MIT",
+  "author": "Arken Protocol",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/arkenforge/arken-auth"
+  }
+,
+  "publishConfig": { "access": "public" }
+}

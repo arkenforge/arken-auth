@@ -1,0 +1,4 @@
+rust/target/
+*.tar.gz
+*.zip
+.DS_Store

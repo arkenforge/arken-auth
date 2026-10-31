@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.backends.legacy:build"
+
+[project]
+name = "arken-auth"
+version = "0.1.0"
+description = "Zero-storage authentication middleware. No passwords. No sessions. Nothing to breach."
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.9"
+keywords = ["authentication", "did", "web3", "fastapi", "a401"]
+dependencies = [
+    "fastapi>=0.100.0",
+]
+
+[project.optional-dependencies]
+dev = ["uvicorn>=0.24.0", "httpx>=0.25.0"]
+
+[project.urls]
+Homepage = "https://arkenprotocol.dev"
+Repository = "https://github.com/arken-protocol/arken-auth-py"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["arken_auth*"]

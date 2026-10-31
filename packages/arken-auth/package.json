@@ -1,0 +1,39 @@
+{
+  "name": "@arkenforge/arken-auth",
+  "version": "0.2.1",
+  "description": "Zero-storage authentication middleware. No passwords. No sessions. Nothing to breach.",
+  "main": "index.js",
+  "scripts": {
+    "build-local": "node scripts/postinstall.js"
+  },
+  "keywords": ["authentication", "did", "did:key", "middleware", "express", "passwordless", "a401", "secp256k1"],
+  "license": "MIT",
+  "author": "Arken Protocol",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/arkenforge/arken-auth"
+  },
+  "bugs": {
+    "url": "https://github.com/arkenforge/arken-auth/issues"
+  },
+  "homepage": "https://github.com/arkenforge/arken-auth#readme",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "koffi": "^2.9.0"
+  },
+  "optionalDependencies": {
+    "@arkenforge/arken-auth-linux-x64": "0.1.0",
+    "@arkenforge/arken-auth-linux-arm64": "0.1.0",
+    "@arkenforge/arken-auth-darwin-x64": "0.1.0",
+    "@arkenforge/arken-auth-darwin-arm64": "0.1.0",
+    "@arkenforge/arken-auth-win32-x64": "0.1.0"
+  },
+  "peerDependencies": {
+    "express": ">=4.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
