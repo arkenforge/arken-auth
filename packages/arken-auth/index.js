@@ -1,5 +1,6 @@
 'use strict';
 
-const { arkenAuth, ArkenCore, MemoryNonceStore, RedisNonceStore } = require('./lib/middleware');
+const { arkenAuth, MemoryNonceStore, RedisNonceStore } = require('./lib/middleware');
+const { ArkenCore } = require('@arkenforge/core');
 
 module.exports = { arkenAuth, ArkenCore, MemoryNonceStore, RedisNonceStore };
