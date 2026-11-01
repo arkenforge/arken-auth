@@ -6,7 +6,7 @@
 
 <p align="center">
   <a href="https://www.npmjs.com/package/@arkenforge/arken-auth"><img src="https://img.shields.io/npm/v/@arkenforge/arken-auth.svg" alt="npm version"></a>
-  <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT"></a>
+  <a href="https://opensource.org/licenses/Apache-2.0"><img src="https://img.shields.io/badge/License-Apache%202.0-blue.svg" alt="License: Apache 2.0"></a>
 </p>
 
 <p align="center">
@@ -159,4 +159,4 @@ For FastAPI, see [arken-auth on PyPI](https://pypi.org/project/arken-auth/).
 
 ## License
 
-[MIT](../../LICENSE) — Arken Protocol
+[Apache 2.0](../../LICENSE) — ArkenForge
