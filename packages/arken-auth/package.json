@@ -4,7 +4,7 @@
   "description": "Zero-storage authentication middleware. No passwords. No sessions. Nothing to breach.",
   "main": "index.js",
   "keywords": ["authentication", "did", "did:key", "middleware", "express", "passwordless", "a401", "secp256k1"],
-  "license": "MIT",
+  "license": "Apache-2.0",
   "author": "ArkenForge",
   "repository": {
     "type": "git",

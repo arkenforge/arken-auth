@@ -4,7 +4,7 @@
   "description": "Client SDK for arken-auth — handles the a401 challenge-response flow automatically.",
   "main": "index.js",
   "keywords": ["arken", "did", "did:key", "authentication", "a401", "secp256k1", "agent"],
-  "license": "MIT",
+  "license": "Apache-2.0",
   "author": "Arken Protocol",
   "repository": {
     "type": "git",
