@@ -1,5 +1,9 @@
 /**
- * MCP server protected by arken-auth
+ * Plain HTTP Express server protected by arken-auth
+ *
+ * NOTE: This is NOT the Model Context Protocol (MCP) SDK or transport.
+ * It is a plain Express HTTP API with MCP-inspired route naming.
+ * For a real MCP server, see https://github.com/modelcontextprotocol/typescript-sdk
  *
  * An agent calling this server needs a did:key — no API key required.
  * The server stores no credentials. Every request is verified cryptographically.

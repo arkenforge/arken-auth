@@ -24,7 +24,9 @@
 npm install @arkenforge/arken-auth
 ```
 
-No Rust required — prebuilt native binaries are downloaded automatically for your platform.
+> **Pre-1.0:** building from source requires a [Rust toolchain](https://rustup.rs).
+> Run `cargo build --release` in `rust/` to compile the native crypto core.
+> Prebuilt binaries are planned for the 1.0 release.
 
 ---
 

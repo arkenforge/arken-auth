@@ -8,7 +8,7 @@ Requires [Rust](https://rustup.rs) — used once to compile the native crypto co
 
 ```bash
 pip install arken-auth
-python -m arken_auth.build  # compiles the Rust core
+python scripts/build_native.py  # compiles the Rust core (requires rustup.rs)
 ```
 
 ## Usage
@@ -58,4 +58,4 @@ ArkenAuth(statement="Sign to access the API.")
 
 ## License
 
-MIT
+Apache-2.0

@@ -13,14 +13,14 @@ The following are in scope:
 The following are out of scope:
 
 - Issues requiring physical access to the server
-- Denial of service via nonce store exhaustion (known limitation; see README)
+- Denial of service via nonce store exhaustion (known limitation; see [docs/THREAT_MODEL.md](docs/THREAT_MODEL.md))
 - Vulnerabilities in dependencies not introduced by this project
 
 ## Reporting a Vulnerability
 
 Please report security issues privately using GitHub's built-in advisory system:
 
-**[Open a private security advisory](https://github.com/zacharybenson/arken-protocol/security/advisories/new)**
+**[Open a private security advisory](https://github.com/arkenforge/arken-auth/security/advisories/new)**
 
 Do not open a public issue for security vulnerabilities.
 

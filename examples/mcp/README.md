@@ -1,6 +1,12 @@
-# arken-auth MCP example
+# arken-auth HTTP Agent API example
 
-An MCP server protected by arken-auth and an agent client using arken-client.
+> **Note:** This is a plain HTTP Express server example — it does **not** use the
+> Model Context Protocol SDK or transport. The routes follow an MCP-inspired naming
+> convention, but there is no JSON-RPC, no stdio/SSE transport, and no
+> `@modelcontextprotocol/sdk` dependency. If you want a real MCP integration, see
+> the [Model Context Protocol SDK](https://github.com/modelcontextprotocol/typescript-sdk).
+
+An Express HTTP API protected by arken-auth, with an agent client using arken-client.
 
 The agent has a `did:key` — no API key, no stored credential. Every request is signed and verified cryptographically.
 

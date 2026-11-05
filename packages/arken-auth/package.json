@@ -3,7 +3,16 @@
   "version": "0.2.2",
   "description": "Zero-storage authentication middleware. No passwords. No sessions. Nothing to breach.",
   "main": "index.js",
-  "keywords": ["authentication", "did", "did:key", "middleware", "express", "passwordless", "a401", "secp256k1"],
+  "keywords": [
+    "authentication",
+    "did",
+    "did:key",
+    "middleware",
+    "express",
+    "passwordless",
+    "a401",
+    "secp256k1"
+  ],
   "license": "Apache-2.0",
   "author": "ArkenForge",
   "repository": {
@@ -17,13 +26,23 @@
   "publishConfig": {
     "access": "public"
   },
-  "dependencies": {
-    "@arkenforge/core": "^0.1.0"
-  },
   "peerDependencies": {
     "express": ">=4.0.0"
   },
   "engines": {
     "node": ">=18.0.0"
+  },
+  "files": [
+    "index.js",
+    "lib/",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test test/**/*.test.js"
+  },
+  "devDependencies": {
+    "@arkenforge/core": "file:../../../arken-core/packages/@arkenforge/core",
+    "koffi": "^3.3.6"
   }
 }
