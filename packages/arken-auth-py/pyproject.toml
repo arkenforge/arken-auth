@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "arken-auth"
-version = "0.1.0"
+version = "0.3.0"
 description = "Zero-storage authentication middleware. No passwords. No sessions. Nothing to breach."
 readme = "README.md"
 license = "Apache-2.0"
